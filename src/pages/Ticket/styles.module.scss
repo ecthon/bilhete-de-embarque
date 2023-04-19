@@ -1,0 +1,231 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 327px;
+    height: auto;
+    background: #fff;
+    margin: 78px auto;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.header-ticket {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px 0 32px;
+}
+
+.voo-code {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(0, 0, 0, 0.64);
+    }
+
+    span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.88);
+    }
+}
+
+.voo-date {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(0, 0, 0, 0.64);
+
+    }
+
+    span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.88);
+    }
+}
+
+.destiny {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+}
+
+.code-city {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.64);
+    }
+}
+
+.code-airports {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        align-items: center;
+        letter-spacing: -0.02em;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.88);
+    }
+
+}
+
+.hours {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.8);
+
+        sup {
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: right;
+            letter-spacing: -0.02em;
+            color: rgba(0, 0, 0, 0.8);
+        }
+    }
+}
+
+.passenger-data {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.64);
+    }
+
+    span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.88);
+    }
+
+    .assento {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+
+    .hours-embarque {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 8px;
+        background: #633BBC;
+        border-radius: 8px;
+        color: #fff;
+        margin-top: 2px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.64);
+    }
+
+    span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.88);
+        margin-bottom: 16px;
+    }
+}
+
+.column-left {
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.64);
+    }
+}
+
+.alert-footer {
+    display: flex;
+    margin-top: 24px;
+    margin: 0 auto 24px auto;
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.8);
+        margin-left: 2px;
+    }
+
+    span {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: rgba(0, 0, 0, 0.8);
+    }
+}

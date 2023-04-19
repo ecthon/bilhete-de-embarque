@@ -1,12 +1,11 @@
-import { Inter } from 'next/font/google'
-
-
-const inter = Inter({ subsets: ['latin'] })
+import Ticket from "./Ticket";
+import styles from '../styles/home.module.scss';
 
 export default function Home() {
   return (
-    <>
-    <h1>Home</h1>
-    </>
+    <div className={styles.container}>
+      <h1>Cartão de embarque</h1>
+      <Ticket />
+    </div>
   )
 }
