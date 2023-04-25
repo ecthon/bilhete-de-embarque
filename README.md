@@ -10,7 +10,7 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Next.js](#✨-tecnologias)
-- [SCSS](#✨-tecnologias)
+- [Sass](#✨-tecnologias)
 
 ## 💻 Projeto
 
@@ -18,7 +18,7 @@ Desafio #boraCodar de número 15. Desenvolva um componente pricing table.
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1227809985897425342). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1205146101173113980/%23boraCodar---Desafio-6). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 ## 📄 Licença
 
